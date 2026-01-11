@@ -252,8 +252,8 @@ main .container > h1::after {
 }
 
 .breadcrumb span {
-  margin: 0 0.5rem;
-  color: var(--color-border);
+  margin: 0 0.25rem;
+  color: var(--color-text-muted);
 }
 
 .article-excerpt {
