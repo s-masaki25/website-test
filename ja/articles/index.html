@@ -42,38 +42,55 @@
   </header>
 
   <main>
-    <div class="container">
+    <div class="container-wide">
       <nav class="breadcrumb">
         <a href="../index.html">ホーム</a><span>/</span>記事一覧
       </nav>
 
       <h1>記事一覧</h1>
 
-      <ul class="article-list">
-        <li class="article-item">
+      <!-- Category Filter -->
+      <div class="category-filter">
+        <button class="filter-btn active" data-category="all">すべて</button>
+        <button class="filter-btn" data-category="design">デザイン</button>
+        <button class="filter-btn" data-category="culture">文化</button>
+      </div>
+
+      <!-- Article Grid -->
+      <div class="article-grid">
+        <article class="article-card" data-category="culture">
           <a href="wabi-sabi.html">
-            <p class="article-meta"><span class="article-category">文化</span>2025年1月10日</p>
-            <h2>侘び寂びの美学</h2>
-            <p class="article-excerpt">不完全さの中に美を見出す日本の伝統的な美意識について。</p>
+            <div class="card-content">
+              <span class="card-category">文化</span>
+              <h2 class="card-title">侘び寂びの美学</h2>
+              <p class="card-excerpt">不完全さの中に美を見出す日本の伝統的な美意識について。</p>
+              <time class="card-date">2025年1月10日</time>
+            </div>
           </a>
-        </li>
+        </article>
 
-        <li class="article-item">
+        <article class="article-card" data-category="design">
           <a href="#">
-            <p class="article-meta"><span class="article-category">デザイン</span>2025年1月5日</p>
-            <h2>余白の力</h2>
-            <p class="article-excerpt">デザインにおける「間」の重要性と、それが伝えるメッセージ。</p>
+            <div class="card-content">
+              <span class="card-category">デザイン</span>
+              <h2 class="card-title">余白の力</h2>
+              <p class="card-excerpt">デザインにおける「間」の重要性と、それが伝えるメッセージ。</p>
+              <time class="card-date">2025年1月5日</time>
+            </div>
           </a>
-        </li>
+        </article>
 
-        <li class="article-item">
+        <article class="article-card" data-category="design">
           <a href="#">
-            <p class="article-meta"><span class="article-category">デザイン</span>2024年12月28日</p>
-            <h2>少なく、しかしより良く</h2>
-            <p class="article-excerpt">ディーター・ラムスの哲学から学ぶ、本質的なデザインの追求。</p>
+            <div class="card-content">
+              <span class="card-category">デザイン</span>
+              <h2 class="card-title">少なく、しかしより良く</h2>
+              <p class="card-excerpt">ディーター・ラムスの哲学から学ぶ、本質的なデザインの追求。</p>
+              <time class="card-date">2024年12月28日</time>
+            </div>
           </a>
-        </li>
-      </ul>
+        </article>
+      </div>
     </div>
   </main>
 
@@ -82,5 +99,24 @@
       <p>&copy; 2025 Minimal Journal. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const category = btn.dataset.category;
+        document.querySelectorAll('.article-card').forEach(card => {
+          if (category === 'all' || card.dataset.category === category) {
+            card.style.display = '';
+            card.style.animation = 'fadeIn 0.3s ease';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
