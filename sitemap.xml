@@ -4,51 +4,51 @@
 
   <!-- English Home -->
   <url>
-    <loc>https://example.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/" />
-    <lastmod>2025-01-10</lastmod>
+    <loc>https://s-masaki25.github.io/website-test/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://s-masaki25.github.io/website-test/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://s-masaki25.github.io/website-test/ja/" />
+    <lastmod>2026-01-11</lastmod>
     <priority>1.0</priority>
   </url>
 
   <!-- Japanese Home -->
   <url>
-    <loc>https://example.com/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/" />
-    <lastmod>2025-01-10</lastmod>
+    <loc>https://s-masaki25.github.io/website-test/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://s-masaki25.github.io/website-test/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://s-masaki25.github.io/website-test/ja/" />
+    <lastmod>2026-01-11</lastmod>
     <priority>1.0</priority>
   </url>
 
   <!-- English Articles List -->
   <url>
-    <loc>https://example.com/en/articles/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/articles/" />
-    <lastmod>2025-01-10</lastmod>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://s-masaki25.github.io/website-test/en/articles/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://s-masaki25.github.io/website-test/ja/articles/" />
+    <lastmod>2026-01-11</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- Japanese Articles List -->
   <url>
-    <loc>https://example.com/ja/articles/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/articles/" />
-    <lastmod>2025-01-10</lastmod>
+    <loc>https://s-masaki25.github.io/website-test/ja/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://s-masaki25.github.io/website-test/en/articles/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://s-masaki25.github.io/website-test/ja/articles/" />
+    <lastmod>2026-01-11</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- English Article: The Art of Simplicity -->
   <url>
-    <loc>https://example.com/en/articles/the-art-of-simplicity.html</loc>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/the-art-of-simplicity.html</loc>
     <lastmod>2025-01-08</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- Japanese Article: Wabi-Sabi -->
   <url>
-    <loc>https://example.com/ja/articles/wabi-sabi.html</loc>
-    <lastmod>2025-01-10</lastmod>
+    <loc>https://s-masaki25.github.io/website-test/ja/articles/wabi-sabi.html</loc>
+    <lastmod>2026-01-11</lastmod>
     <priority>0.6</priority>
   </url>
 
