@@ -1,0 +1,7 @@
+# robots.txt for Minimal Journal
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://example.com/sitemap.xml
