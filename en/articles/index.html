@@ -49,39 +49,59 @@
 
       <h1>Articles</h1>
 
-      <ul class="article-list">
-        <li class="article-item">
+      <!-- Category Filter -->
+      <div class="category-filter">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="design">Design</button>
+        <button class="filter-btn" data-category="lifestyle">Lifestyle</button>
+      </div>
+
+      <!-- Article Grid -->
+      <div class="article-grid">
+        <article class="article-card" data-category="design">
           <a href="the-art-of-simplicity.html">
-            <p class="article-meta"><span class="article-category">Design</span>January 8, 2025</p>
-            <h2>The Art of Simplicity</h2>
-            <p class="article-excerpt">Exploring how restraint and intentionality lead to more meaningful design outcomes.</p>
+            <div class="card-content">
+              <span class="card-category">Design</span>
+              <h2 class="card-title">The Art of Simplicity</h2>
+              <p class="card-excerpt">Exploring how restraint and intentionality lead to more meaningful design outcomes.</p>
+              <time class="card-date">January 8, 2025</time>
+            </div>
           </a>
-        </li>
+        </article>
 
-        <li class="article-item">
+        <article class="article-card" data-category="lifestyle">
           <a href="on-digital-minimalism.html">
-            <p class="article-meta"><span class="article-category">Lifestyle</span>January 3, 2025</p>
-            <h2>On Digital Minimalism</h2>
-            <p class="article-excerpt">Reclaiming focus in an age of constant connectivity and endless notifications.</p>
+            <div class="card-content">
+              <span class="card-category">Lifestyle</span>
+              <h2 class="card-title">On Digital Minimalism</h2>
+              <p class="card-excerpt">Reclaiming focus in an age of constant connectivity and endless notifications.</p>
+              <time class="card-date">January 3, 2025</time>
+            </div>
           </a>
-        </li>
+        </article>
 
-        <li class="article-item">
+        <article class="article-card" data-category="design">
           <a href="#">
-            <p class="article-meta"><span class="article-category">Design</span>December 28, 2024</p>
-            <h2>Typography as Communication</h2>
-            <p class="article-excerpt">How the choice of typeface shapes the way we read and understand content.</p>
+            <div class="card-content">
+              <span class="card-category">Design</span>
+              <h2 class="card-title">Typography as Communication</h2>
+              <p class="card-excerpt">How the choice of typeface shapes the way we read and understand content.</p>
+              <time class="card-date">December 28, 2024</time>
+            </div>
           </a>
-        </li>
+        </article>
 
-        <li class="article-item">
+        <article class="article-card" data-category="design">
           <a href="#">
-            <p class="article-meta"><span class="article-category">Design</span>December 20, 2024</p>
-            <h2>The Value of White Space</h2>
-            <p class="article-excerpt">Understanding negative space as an active design element, not empty absence.</p>
+            <div class="card-content">
+              <span class="card-category">Design</span>
+              <h2 class="card-title">The Value of White Space</h2>
+              <p class="card-excerpt">Understanding negative space as an active design element, not empty absence.</p>
+              <time class="card-date">December 20, 2024</time>
+            </div>
           </a>
-        </li>
-      </ul>
+        </article>
+      </div>
     </div>
   </main>
 
@@ -90,5 +110,24 @@
       <p>&copy; 2025 Minimal Journal. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const category = btn.dataset.category;
+        document.querySelectorAll('.article-card').forEach(card => {
+          if (category === 'all' || card.dataset.category === category) {
+            card.style.display = '';
+            card.style.animation = 'fadeIn 0.3s ease';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
