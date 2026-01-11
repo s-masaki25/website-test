@@ -15,17 +15,17 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- English Article: The Art of Simplicity -->
+  <!-- English Article: Exit Tax Overview -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/the-art-of-simplicity.html</loc>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/exit-tax-overview.html</loc>
     <lastmod>2025-01-08</lastmod>
     <priority>0.6</priority>
   </url>
 
-  <!-- English Article: On Digital Minimalism -->
+  <!-- English Article: Real Estate Tax Overview -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/on-digital-minimalism.html</loc>
-    <lastmod>2026-01-11</lastmod>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/real-estate-tax-overview.html</loc>
+    <lastmod>2025-01-03</lastmod>
     <priority>0.6</priority>
   </url>
 
