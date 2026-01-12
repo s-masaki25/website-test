@@ -140,6 +140,10 @@ main {
   padding: 5rem 0;
 }
 
+main.home-main {
+  padding-top: 8rem;
+}
+
 /* Typography */
 h1 {
   font-size: 3rem;
@@ -240,9 +244,8 @@ main .container > h1::after {
   font-weight: 400;
   letter-spacing: 0.05em;
   color: var(--color-text-muted);
-  margin-top: -3rem;
-  margin-bottom: 1rem;
-  padding: 0.875rem 0;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--color-border);
 }
 
