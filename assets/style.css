@@ -240,8 +240,9 @@ main .container > h1::after {
   font-weight: 400;
   letter-spacing: 0.05em;
   color: var(--color-text-muted);
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+  padding: 0.875rem 0;
   border-bottom: 1px solid var(--color-border);
 }
 
