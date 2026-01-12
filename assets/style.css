@@ -303,7 +303,7 @@ main .container > h1::after {
 /* Article Grid */
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -313,10 +313,13 @@ main .container > h1::after {
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.3s ease;
+  aspect-ratio: 1 / 1;
 }
 
 .article-card a {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   color: var(--color-text);
   text-decoration: none;
 }
@@ -328,7 +331,10 @@ main .container > h1::after {
 }
 
 .card-content {
-  padding: 1.5rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card-category {
@@ -360,6 +366,11 @@ main .container > h1::after {
   color: var(--color-text-muted);
   line-height: 1.6;
   margin-bottom: 1rem;
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .card-date {
@@ -368,6 +379,7 @@ main .container > h1::after {
   font-size: 0.6875rem;
   color: var(--color-accent);
   letter-spacing: 0.05em;
+  margin-top: auto;
 }
 
 @keyframes fadeIn {
