@@ -245,14 +245,17 @@ main .container > h1::after {
   padding: 0.75rem 0;
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
+  line-height: 1;
 }
 
 .breadcrumb a {
   color: var(--color-text-muted);
+  border-bottom: none;
 }
 
 .breadcrumb a:hover {
   color: var(--color-accent);
+  border-bottom: none;
 }
 
 .breadcrumb span {
