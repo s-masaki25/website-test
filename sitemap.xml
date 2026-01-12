@@ -29,4 +29,11 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- English Article: WHT on Japanese Real Estate Sales by Non-Residents -->
+  <url>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/nonresident-real-estate-withholding.html</loc>
+    <lastmod>2025-01-13</lastmod>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
