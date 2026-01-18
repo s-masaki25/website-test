@@ -395,7 +395,6 @@ main .container > h1::after {
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.3s ease;
-  aspect-ratio: 1 / 1;
 }
 
 .article-card a {
