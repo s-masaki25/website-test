@@ -43,4 +43,11 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- English Article: Double Taxation on Dispositions of Real Property in Japan -->
+  <url>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/double-taxation-real-property.html</loc>
+    <lastmod>2025-01-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
