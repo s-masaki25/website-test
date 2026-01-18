@@ -36,4 +36,11 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- English Article: Understanding Non-Resident Status in Japan -->
+  <url>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/nonresident-status-overview.html</loc>
+    <lastmod>2025-01-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
