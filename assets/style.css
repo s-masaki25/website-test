@@ -316,12 +316,43 @@ main .container > h1::after {
   font-size: 1rem;
 }
 
+/* Articles Page Layout */
+.articles-main {
+  padding: 0;
+}
+
+.articles-header {
+  position: sticky;
+  top: 80px;
+  z-index: 100;
+  background: var(--color-bg);
+  padding: 2rem 0 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.articles-header .breadcrumb {
+  margin-bottom: 1.5rem;
+  padding-top: 0;
+}
+
+.articles-header h1 {
+  margin-bottom: 1.5rem;
+}
+
+.articles-header h1::after {
+  display: none;
+}
+
+.articles-content {
+  padding: 2rem 0 5rem;
+}
+
 /* Category Filter */
 .category-filter {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
-  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .filter-btn {
@@ -412,16 +443,8 @@ main .container > h1::after {
   color: var(--color-accent-hover);
 }
 
-.card-excerpt {
-  font-size: 0.875rem;
-  color: var(--color-text-muted);
-  line-height: 1.6;
-  margin-bottom: 1rem;
+.card-title {
   flex: 1;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 
 .card-date {
@@ -430,7 +453,6 @@ main .container > h1::after {
   font-size: 0.6875rem;
   color: var(--color-accent);
   letter-spacing: 0.05em;
-  margin-top: auto;
 }
 
 @keyframes fadeIn {
