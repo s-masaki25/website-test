@@ -413,10 +413,10 @@ main .container > h1::after {
 }
 
 .card-content {
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100%;
 }
 
@@ -455,6 +455,7 @@ main .container > h1::after {
   font-size: 0.6875rem;
   color: var(--color-accent);
   letter-spacing: 0.05em;
+  margin-top: auto;
 }
 
 @keyframes fadeIn {
