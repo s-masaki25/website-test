@@ -50,4 +50,11 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- English Article: Taxation of Japan-Source Income for Non-Residents -->
+  <url>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/nonresident-japan-source-income.html</loc>
+    <lastmod>2025-01-24</lastmod>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
