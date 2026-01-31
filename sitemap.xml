@@ -64,4 +64,11 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- English Article: Appointing a Tax Agent for Non-Residents -->
+  <url>
+    <loc>https://s-masaki25.github.io/website-test/en/articles/tax-agent-non-resident-japan-source-income.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
