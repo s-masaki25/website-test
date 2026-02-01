@@ -143,7 +143,7 @@ nav a.lang-switch:hover {
 /* Main Content */
 main {
   flex: 1;
-  padding: 5rem 0;
+  padding: 3rem 0 5rem;
 }
 
 main.home-main {
@@ -294,9 +294,10 @@ main .container > h1::after {
   font-size: 0.6875rem;
   font-weight: 400;
   letter-spacing: 0.05em;
+  text-transform: uppercase;
   color: var(--color-text-muted);
-  margin-bottom: 2rem;
-  padding-top: 5px;
+  margin-bottom: 1.5rem;
+  padding-top: 0;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--color-border);
 }
@@ -339,8 +340,6 @@ main .container > h1::after {
 
 .articles-header .breadcrumb {
   margin-bottom: 1.5rem;
-  padding-top: 0;
-  text-transform: uppercase;
 }
 
 .articles-header h1 {
