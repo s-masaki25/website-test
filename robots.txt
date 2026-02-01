@@ -1,4 +1,4 @@
-# robots.txt for Minimal Journal
+# robots.txt for Theoretica Tax
 
 User-agent: *
 Allow: /
