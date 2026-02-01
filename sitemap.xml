@@ -3,70 +3,70 @@
 
   <!-- English Home -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/</loc>
+    <loc>https://theoreticatax.com/en/</loc>
     <lastmod>2026-01-11</lastmod>
     <priority>1.0</priority>
   </url>
 
   <!-- English Articles List -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/</loc>
+    <loc>https://theoreticatax.com/en/articles/</loc>
     <lastmod>2026-01-11</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- English Article: Exit Tax Overview -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/exit-tax-overview.html</loc>
+    <loc>https://theoreticatax.com/en/articles/exit-tax-overview.html</loc>
     <lastmod>2025-01-08</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- English Article: Real Estate Tax Overview -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/real-estate-tax-overview.html</loc>
+    <loc>https://theoreticatax.com/en/articles/real-estate-tax-overview.html</loc>
     <lastmod>2025-01-03</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- English Article: WHT on Japanese Real Estate Sales by Non-Residents -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/nonresident-real-estate-withholding.html</loc>
+    <loc>https://theoreticatax.com/en/articles/nonresident-real-estate-withholding.html</loc>
     <lastmod>2025-01-13</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- English Article: Understanding Non-Resident Status in Japan -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/nonresident-status-overview.html</loc>
+    <loc>https://theoreticatax.com/en/articles/nonresident-status-overview.html</loc>
     <lastmod>2025-01-18</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- English Article: Double Taxation on Dispositions of Real Property in Japan -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/double-taxation-real-property.html</loc>
+    <loc>https://theoreticatax.com/en/articles/double-taxation-real-property.html</loc>
     <lastmod>2025-01-19</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- English Article: Taxation of Japan-Source Income for Non-Residents -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/nonresident-japan-source-income.html</loc>
+    <loc>https://theoreticatax.com/en/articles/nonresident-japan-source-income.html</loc>
     <lastmod>2025-01-24</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- English Article: Taxation of Non-Permanent Residents in Japan -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/taxation-non-permanent-residents.html</loc>
+    <loc>https://theoreticatax.com/en/articles/taxation-non-permanent-residents.html</loc>
     <lastmod>2026-01-24</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- English Article: Appointing a Tax Agent for Non-Residents -->
   <url>
-    <loc>https://s-masaki25.github.io/website-test/en/articles/tax-agent-non-resident-japan-source-income.html</loc>
+    <loc>https://theoreticatax.com/en/articles/tax-agent-non-resident-japan-source-income.html</loc>
     <lastmod>2026-02-01</lastmod>
     <priority>0.6</priority>
   </url>
