@@ -15,20 +15,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- English Article: Exit Tax Overview -->
-  <url>
-    <loc>https://theoreticatax.com/en/articles/exit-tax-overview.html</loc>
-    <lastmod>2025-01-08</lastmod>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- English Article: Real Estate Tax Overview -->
-  <url>
-    <loc>https://theoreticatax.com/en/articles/real-estate-tax-overview.html</loc>
-    <lastmod>2025-01-03</lastmod>
-    <priority>0.6</priority>
-  </url>
-
   <!-- English Article: WHT on Japanese Real Estate Sales by Non-Residents -->
   <url>
     <loc>https://theoreticatax.com/en/articles/nonresident-real-estate-withholding.html</loc>
